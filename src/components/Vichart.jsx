@@ -41,7 +41,7 @@ const yScale = scaleLinear({
   range: [barHeight, 0]
 });
 
-const VisXCharts = () => {
+const ViChart = () => {
   return (
     <>
     <h2 style={{textAlign: 'center'}}>ViChart</h2>
@@ -105,4 +105,4 @@ const VisXCharts = () => {
   );
 };
 
-export default VisXCharts;
+export default ViChart;

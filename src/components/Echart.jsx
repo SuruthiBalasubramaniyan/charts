@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactECharts from 'echarts-for-react';
 
-const EChartsComponent = () => {
+const EChart = () => {
   // Data for the Pie Chart
   const pieOptions = {
     title: {
@@ -87,4 +87,4 @@ const EChartsComponent = () => {
   );
 };
 
-export default EChartsComponent;
+export default EChart;

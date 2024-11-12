@@ -2,7 +2,7 @@ import React from 'react';
 import { ResponsivePie } from '@nivo/pie';
 import { ResponsiveBar } from '@nivo/bar';
 
-const NivoCharts = () => {
+const NCharts = () => {
   // Data for the Pie Chart
   const pieData = [
     { id: "Cats", label: "Cats", value: 35, color: "hsl(74, 70%, 50%)" },
@@ -81,4 +81,4 @@ const NivoCharts = () => {
   );
 };
 
-export default NivoCharts;
+export default NCharts;

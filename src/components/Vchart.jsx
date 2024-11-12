@@ -1,7 +1,7 @@
 import React from 'react';
 import { VictoryPie, VictoryBar, VictoryChart, VictoryAxis, VictoryTheme } from 'victory';
 
-const CombinedChart = () => {
+const Vchart = () => {
   const pieData = [
     { x: "Cats", y: 35 },
     { x: "Dogs", y: 40 },
@@ -62,4 +62,4 @@ const CombinedChart = () => {
   );
 };
 
-export default CombinedChart;
+export default Vchart;
